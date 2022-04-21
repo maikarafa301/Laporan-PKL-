@@ -1,0 +1,323 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper-all {
+    position: relative;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+.background {
+    background-size: cover;
+    z-index: -1;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+
+.background img {
+    position: absolute;
+    z-index: -5;
+    width: 1440px;
+    height: 700px;
+}
+
+
+nav {
+    display: flex;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    opacity: 80%;
+    box-shadow: rgba(0, 0, 0, 0.424) 0px 0.5rem 1rem;
+    padding: 0.5rem;
+    z-index: 100;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    margin-left: 400px;
+
+}
+
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+nav a:hover {
+  color: skyblue;
+}
+
+
+nav .logo a {
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+}
+
+
+nav a:hover {
+    border-bottom: 1px solid black;
+    transition: all .3s ease;
+}
+
+
+.container{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    padding-top: 230px;
+}
+
+
+.container h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+
+.container h2 span{
+    color: skyblue;
+    text-transform: uppercase;
+}
+
+
+.container p{ 
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color:rgb(255, 255, 255);
+    padding: 1rem 0;
+}
+
+
+.container p span {
+    color: skyblue;
+}
+
+
+.container .tombol .text-button {
+    font-size: medium;
+}
+
+
+.container .tombol button:hover{
+    background-color: white;
+    
+}
+
+
+.container .tombol button .text-button:hover{
+    color: black;
+}
+
+
+.container .tombol button {
+    width: 150px;
+    height: 50px;
+    background-color: skyblue;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.container .tombol a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.card-section {
+    background: url(/img/yes.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+.card {
+    font-family: 'Mukta', sans-serif;
+    background-color: white;
+    width: 200px;
+    height: 270px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.container-card h2, p {
+    text-align: center;
+}
+
+
+.container-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.card2 {
+  font-family: 'Mukta', sans-serif;
+  background-color: white;
+  width: 200px;
+  height: 270px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-250%, -50%);
+  position: absolute;
+  border-radius: 10px;
+}
+
+
+.container-card2 h2, p {
+  text-align: center;
+}
+
+
+.container-card2 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+
+.card3 {
+  font-family: 'Mukta', sans-serif;
+  background-color: white;
+  width: 200px;
+  height: 270px;
+  top: 50%;
+  left: 50%;
+  transform: translate(150%, -50%);
+  position: absolute;
+  border-radius: 10px;
+}
+
+
+.container-card3 h2, p {
+  text-align: center;
+}
+
+
+.container-card3 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+
+#alamat {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.alamat h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.alamat iframe {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+
+.alamat p {
+  margin-top: 10px;
+  font-size: large;
+  font-family: monospace;
+}
+
+
+#kontak {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-kontak {
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+.card-kontak i {
+    font-size: 45px;
+    line-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+
+}
+
+
+.card-kontak:hover i {
+    line-height: 100px;
+}
+
+
+.card-kontak .kontak-konten {
+    display: none;
+}
+
+
+.card-kontak:hover .kontak-konten {
+    display: inline-block;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
